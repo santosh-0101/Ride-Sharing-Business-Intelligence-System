@@ -2,7 +2,9 @@
 Ride-Sharing BI Dashboard with ML Prediction
 
 ## 📌 Overview
-This project analyzes ride-sharing data to generate business insights and includes an interactive dashboard with real-time fare prediction.
+This project is a Business Intelligence (BI) system for a ride-sharing platform that analyzes trip data and provides actionable insights through an interactive dashboard.
+
+It also integrates a Machine Learning model to predict ride fares based on trip features like distance and duration.
 
 ## 🎯 Features
 - Data analysis of ride trends
