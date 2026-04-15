@@ -1,35 +1,76 @@
 # Ride-Sharing-Business-Intelligence-System
 Ride-Sharing BI Dashboard with ML Prediction
+atement
 
-## 📌 Overview
-This project is a Business Intelligence (BI) system for a ride-sharing platform that analyzes trip data and provides actionable insights through an interactive dashboard.
+Ride-sharing companies need to:
 
-It also integrates a Machine Learning model to predict ride fares based on trip features like distance and duration.
+Understand demand patterns
+Optimize pricing strategies
+Improve operational efficiency
 
-## 🎯 Features
-- Data analysis of ride trends
-- Key business metrics (revenue, rides, avg fare)
-- Interactive Streamlit dashboard
-- Machine Learning model for fare prediction
+This project simulates how data can be used to support data-driven decision-making.
 
-## 🛠️ Tech Stack
-- Python (Pandas, NumPy)
-- Visualization (Matplotlib, Seaborn)
-- Machine Learning (Scikit-learn)
-- Dashboard (Streamlit)
+⚙️ Features
+📊 Data Analysis
+Ride demand trends by hour and location
+Revenue distribution across locations
+Trip distance and duration insights
 
-## 📊 Insights
-- Peak ride demand occurs at specific hours
-- Certain locations generate higher revenue
-- Trip distance strongly impacts fare
+📈 Dashboard (Streamlit)
+Interactive filters
+Key metrics (Revenue, Rides, Avg Fare)
+Visualizations for business insights
 
-## 🔮 Machine Learning
-A Linear Regression model predicts fare based on:
-- Distance
-- Trip duration
+🔮 Machine Learning
+Linear Regression model
+Predicts fare based on:
+Distance (km)
+Trip duration (minutes)
 
-## ▶️ How to Run
+📊 Dashboard Preview
 
-```bash
+
+
+![Dashboard](screenshot1.png)
+![Prediction](screenshot2.png)
+🛠️ Tech Stack
+Python
+Pandas, NumPy (Data Processing)
+Matplotlib, Seaborn (Visualization)
+Scikit-learn (Machine Learning)
+Streamlit (Dashboard)
+📁 Project Structure
+ride-sharing-bi/
+│── app.py                  # Streamlit dashboard
+│── ride_sharing_data.csv   # Dataset
+│── notebook.ipynb          # Data analysis
+│── requirements.txt        # Dependencies
+│── README.md               # Project documentation
+▶️ How to Run Locally
+# Clone the repository
+git clone https://github.com/your-username/ride-sharing-bi.git
+
+# Navigate to project folder
+cd ride-sharing-bi
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the app
 streamlit run app.py
+📈 Key Insights
+Peak ride demand occurs during specific hours
+Certain locations contribute significantly to revenue
+Trip distance has a strong impact on fare
+
+🚀 Future Improvements
+Add geospatial visualization (maps)
+Implement demand forecasting
+Deploy the dashboard online
+Use real-world datasets
+
+👨‍💻 Author
+Santosh
+
+⭐ If you found this useful, give it a star!
+
