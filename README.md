@@ -39,13 +39,16 @@ Pandas, NumPy (Data Processing)
 Matplotlib, Seaborn (Visualization)
 Scikit-learn (Machine Learning)
 Streamlit (Dashboard)
+
 📁 Project Structure
+
 ride-sharing-bi/
 │── app.py                  # Streamlit dashboard
 │── ride_sharing_data.csv   # Dataset
 │── notebook.ipynb          # Data analysis
 │── requirements.txt        # Dependencies
 │── README.md               # Project documentation
+
 ▶️ How to Run Locally
 # Clone the repository
 git clone https://github.com/your-username/ride-sharing-bi.git
